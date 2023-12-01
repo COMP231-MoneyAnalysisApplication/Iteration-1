@@ -1,0 +1,48 @@
+/* AddNewSpending.css */
+
+.add-new-spending-section {
+    text-align: center;
+    margin-top: 6em;
+    margin-bottom: 6.5em;
+    color: white;
+  }
+  
+  .add-new-spending-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1em;
+  }
+  
+  button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  

@@ -1,0 +1,128 @@
+/* UserProfile.css */
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; /* Add some padding for spacing */
+  }
+  
+  .app-info h1 {
+    margin: 0;
+    color: white; 
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px; /* Add margin to separate picture and text */
+  }
+  
+  .text-info {
+    color: white;
+    font-size: 14px;
+  }
+  
+.app-info h1 {
+    color: #ada5d0;
+    margin: 0;
+  }
+  .username {
+    display: block; /* Ensure each line is on a new line */
+    font-weight: bold; /* Make the username bold */
+    margin-bottom: 4px;
+  }
+
+  .link1
+  {
+    color: #ada5d0;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: -300px;
+    margin-right: -300px;
+    margin-top: 10px;
+  }
+  .link2
+  {
+    color: #ada5d0;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 400px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .link1:hover
+  {
+   color: white; 
+  }
+
+  .link2:hover
+  {
+   color: white; 
+  }
+  /* Add this to your existing CSS or create a new CSS file */
+
+.total-spending-section {
+    background-color: #000000;
+    padding: 2em;
+    margin-top: 2em;
+  }
+  
+  .total-spending-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .total-spending-container h2{
+    text-align: center;
+    color: white;
+  }
+
+  .total-spending-container p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+
+  tbody
+  {
+    color: white;
+  }
+  
+  table {
+    width: 130%; /* Adjusted width */
+    border-collapse: collapse;
+    margin-top: 1em;
+    margin-left: -15%; /* Centering adjustment */
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tbody tr:hover {
+    background-color: #13256b;
+    color: white;
+  }
+  
+  p {
+    margin-top: 1em;
+    font-weight: bold;
+  }
+  
